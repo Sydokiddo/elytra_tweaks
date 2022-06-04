@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "elytratweaks",
+  "version": "${version}",
+
+  "name": "Elytra Tweaks",
+  "description": "A small mod that makes several changes and tweaks to the Elytra!",
+  "authors": [
+    "Sydokiddo"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Sydokiddo/elytra_tweaks"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/elytratweaks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sydokiddo.elytratweaks.ElytraTweaks"
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+    "elytratweaks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

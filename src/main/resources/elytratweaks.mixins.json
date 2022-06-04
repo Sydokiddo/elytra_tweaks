@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sydokiddo.elytratweaks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ElytraCloseOnDamageMixin",
+    "EntityAccessor",
+    "GameRendererMixin",
+    "LivingEntityMixin",
+    "PlayerManagerMixin"
+  ],
+  "client": [
+    "MixinElytraEntityModel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

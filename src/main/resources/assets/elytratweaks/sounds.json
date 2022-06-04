@@ -1,0 +1,8 @@
+{
+  "item.elytra.close": {
+    "sounds": [
+      "elytratweaks:item/elytra/close"
+    ],
+    "subtitle": "subtitles.entity.player.close_elytra"
+  }
+}
